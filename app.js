@@ -45,7 +45,7 @@ async function generateGifs(e) {
   firstRow.classList.add("row", "first");
   secondRow.classList.add("row", "second");
 
-  // 5 gifs for the first row //
+   // 5 gifs for the first row //
   for (let i = 0; i < gifs.length / 2; i++) {
     const image = document.createElement("img");
 
@@ -54,7 +54,7 @@ async function generateGifs(e) {
     firstRow.appendChild(image);
   }
 
-  // 5 gifs for the second row //
+   // 5 gifs for the first row //
   for (let i = 5; i < gifs.length; i++) {
     const image = document.createElement("img");
 
